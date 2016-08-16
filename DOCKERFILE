@@ -1,0 +1,4 @@
+FROM centos
+MAINTAINER Ofir Gutmacher
+RUN yum install -y python
+COPY print.py
